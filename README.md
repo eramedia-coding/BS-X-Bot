@@ -16,3 +16,9 @@ Credits
 | Person | Helped With |
 |--|--|
 |TailsEraYT#0612|Making the Server & Bot|
+
+
+Repl.it Members
+
+| ٴٴ[REDACTED]#0221 | Helped with Events / Beta Tested |
+| TheDrone7#1624 | Helped fix code |
