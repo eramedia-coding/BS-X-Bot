@@ -1,8 +1,6 @@
 //reqired
 const Discord = require("discord.js");
 const client = new Discord.Client();
-//Web Server
-//const keepAlive = require('./server')
 //events
 const help = require('./events/help')
 const helpserver = require('./events/helpserver')
@@ -93,5 +91,4 @@ if(message.content.includes('fuck')) {
 
 // FORK NOTE: Your Bot's Token. Available on https://discordapp.com/developers/applications/me
 // TIP: Put it in the .env file.
-ke//epAlive();
 client.login(process.env.token);
