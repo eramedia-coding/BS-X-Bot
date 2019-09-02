@@ -21,6 +21,6 @@ Credits
 Repl.it Members
 
 | Person | Helped With |
-
+|--------|-------------|
 | ٴٴ[REDACTED]#0221 | Helped with Events / Beta Tested |
 | TheDrone7#1624 | Helped fix code |
