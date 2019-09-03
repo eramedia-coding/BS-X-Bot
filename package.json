@@ -1,18 +1,19 @@
 {
-  "name": "Discord-bot",
-  "version": "1.1.0",
+  "name": "discord-bot",
+  "version": "1.1.1",
   "description": "Yee",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'Hello World!' ",
+    "dependencies-install": "npm install discord.js discord.js-commando dotenv express isomorphic-fetch"
   },
   "author": "HS",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
     "dotenv": "^7.0.0",
-    "isomorphic-fetch": "^2.2.1",
-    "express": "4.16.4"
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1"
   }
 }

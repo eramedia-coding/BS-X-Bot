@@ -8,6 +8,7 @@ const serverUS = require('./events/serverUS')
 const serverEU = require('./events/serverEU')
 const serverGL = require('./events/serverGL')
 const Satellaplay = require('./events/Satellaplay')
+const Satellaplay1 = require ('./events/Satellaplay1')
 const invite = require('./events/invite')
 
 
@@ -33,7 +34,7 @@ client.on('message', message => {
    message.channel.send({embed : helpserver.embed}).catch(console.error)};
    return};
      //this one is in ./events/help.js yeah I did that
- message.channel.send({embed : help.embed}).catch(console.error)};
+ message.channel.send({embed : help.embed}).catch(console.error);
 
 
 
@@ -62,8 +63,14 @@ client.on('message', message => {
      return
    }
    if(message.content.startsWith('!server satellaplay')) {
+     if(message.content.startsWith('!server satellaplay 2')) {
+       message.delete().catch(console.error)
+       message.channel.send({embed : Satellaplay1.embed});
+       return
+     }
      message.delete().catch(console.error)
-     message.channel.send({embed : Satellaplay.embed})
+     message.channel.send({embed : Satellaplay.embed});
+
      return
    }
    message.delete().catch(console.error)
@@ -72,7 +79,7 @@ client.on('message', message => {
 
     if(message.content.startsWith(!invite)) {
 message.delete().catch(console.error)
-message.channel.send(embed : invite.embed);
+message.author.send(embed , invite.embed);
     };
 
 //Banned Words / Websites
