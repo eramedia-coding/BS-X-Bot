@@ -8,6 +8,7 @@ const serverUS = require('./events/serverUS')
 const serverEU = require('./events/serverEU')
 const serverGL = require('./events/serverGL')
 const Satellaplay = require('./events/Satellaplay')
+const invite = require('./events/invite')
 
 
 client.on("ready", () => {
@@ -30,9 +31,9 @@ client.on('message', message => {
   if(message.content.startsWith("!help server")) {
     //this one is embed
    message.channel.send({embed : helpserver.embed}).catch(console.error)};
-   return
+   return};
      //this one is in ./events/help.js yeah I did that
-message.channel.send({embed : help.embed}).catch(console.error)};
+ message.channel.send({embed : help.embed}).catch(console.error)};
 
 
 
@@ -67,7 +68,13 @@ message.channel.send({embed : help.embed}).catch(console.error)};
    }
    message.delete().catch(console.error)
    message.channel.send("> Usage: \n> !server <region / Server name>")
-  }
+    }
+
+    if(message.content.startsWith(!invite)) {
+message.delete().catch(console.error)
+message.channel.send(embed : invite.embed);
+    };
+
 //Banned Words / Websites
 
  if(message.content.includes('Nigger')) {
