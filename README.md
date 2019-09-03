@@ -1,6 +1,12 @@
 BS-X Computer
 =============
 The way to find Satellaview servers!
+Version 1.1.1 BETA
+
+NOTE:
+=====
+
+This Version is a beta, and will crash without warning. Please use the Master Branch
 
 Commands
 --------

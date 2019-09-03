@@ -33,7 +33,7 @@ client.on('message', message => {
    message.channel.send({embed : helpserver.embed}).catch(console.error)};
    return};
      //this one is in ./events/help.js yeah I did that
- message.channel.send({embed : help.embed}).catch(console.error)};
+ message.channel.send({embed : help.embed}).catch(console.error);
 
 
 
@@ -72,7 +72,7 @@ client.on('message', message => {
 
     if(message.content.startsWith(!invite)) {
 message.delete().catch(console.error)
-message.channel.send(embed : invite.embed);
+message.author.send(embed , invite.embed);
     };
 
 //Banned Words / Websites
