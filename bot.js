@@ -9,7 +9,7 @@ const serverEU = require('./events/serverEU')
 const serverGL = require('./events/serverGL')
 const Satellaplay = require('./events/Satellaplay')
 const Satellaplay1 = require ('./events/Satellaplay1')
-const invite = require('./events/invite')
+const Invite = require ('./events/invite')
 
 
 client.on("ready", () => {
