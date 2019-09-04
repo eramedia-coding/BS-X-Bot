@@ -29,6 +29,7 @@ Repl.it Members
 Discord.js Members
 
 | Person | Helped With |
+|--|--|
 | fripp#4444 | Updated Codebase |
 
 NOTICE:
