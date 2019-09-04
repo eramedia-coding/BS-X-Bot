@@ -29,6 +29,7 @@ client.on('guildMemberAdd', member => {
 client.on('message', message => {
  
   if(message.content.startsWith("!help")) {
+    if (message.author.bot) return;
   if(message.content.startsWith("!help server")) {
     //this one is embed
    message.channel.send({embed : helpserver.embed}).catch(console.error)};
@@ -41,10 +42,12 @@ client.on('message', message => {
 //Commands Code
 
   if(message.content.startsWith('!website')) {
+    if (message.author.bot) return;
    message.author.send('> The EraMedia Website \n Go to https://EraMedia.ml to see our website!')
    message.channel.send("Check your DM's.")};
   
   if(message.content.startsWith('!server')) { 
+    if (message.author.bot) return;
    if(message.content.startsWith('!server us')) {
      message.delete().catch(console.error)
      message.channel.send({embed : serverUS.embed}).catch(console.error)
@@ -78,6 +81,7 @@ client.on('message', message => {
     }
 
     if(message.content.startsWith("!invite")) {
+      if (message.author.bot) return;
 message.delete().catch(console.error)
 message.author.send({embed : Invite.embed})};
 
