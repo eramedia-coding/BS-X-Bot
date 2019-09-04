@@ -28,6 +28,11 @@ Repl.it Members
 | TheDrone7#1624 | Helped fix code |
 | Kakashi Hatake#1202 | Helped Fixed Code |
 
+Discord.js Members
+
+| Person | Helped With |
+| fripp#4444 | Updated Codebase |
+
 NOTICE:
 ======
 Copyright 2019 EraMedia
