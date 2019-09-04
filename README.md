@@ -12,7 +12,6 @@ Commands
 | !help | Brings Up The Help Menu |
 | !server <Region / Server Name> | Shows Details about Server / Shows Servers avalible in your Region. |
 | !invite | Invite this bot to your Server! |
-|--|--|
 
 Credits
 =======
@@ -27,6 +26,7 @@ Repl.it Members
 |--------|-------------|
 | ٴٴ[REDACTED]#0221 | Helped with Events / Beta Tested |
 | TheDrone7#1624 | Helped fix code |
+| Kakashi Hatake#1202 | Helped Fixed Code |
 
 NOTICE:
 ======
