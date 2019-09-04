@@ -79,8 +79,7 @@ client.on('message', message => {
 
     if(message.content.startsWith("!invite")) {
 message.delete().catch(console.error)
-message.author.send(embed : Invite.embed);
-    };
+message.author.send(embed , Invite.embed)};
 
 //Banned Words / Websites
 
