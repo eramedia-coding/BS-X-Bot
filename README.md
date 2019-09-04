@@ -1,9 +1,7 @@
 BS-X Computer
 =============
 The way to find Satellaview servers!
-v1.1.1 Patch
-I PATCHED THIS THING 5 TIMES AT THIS POINT.
--TailsEraYT, Main Developer
+v1.1.2
 
 Commands
 --------
