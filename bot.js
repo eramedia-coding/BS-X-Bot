@@ -77,7 +77,7 @@ client.on('message', message => {
    message.channel.send("> Usage: \n> !server <region / Server name>")
     }
 
-    if(message.content.startsWith(!invite)) {
+    if(message.content.startsWith("!invite")) {
 message.delete().catch(console.error)
 message.author.send(embed , Invite.embed);
     };
