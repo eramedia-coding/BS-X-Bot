@@ -21,8 +21,8 @@ const embed = {
       "value": "This Service is only in the US."
     },
     {
-      "name": "Instrutions || Page 1 / 3",
-      "value": "!server satellaview 1 / 2"
+      "name": "Instrutions || Page 1 / 2",
+      "value": "!server satellaview2"
     }
   ]
 };

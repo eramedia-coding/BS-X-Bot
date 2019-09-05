@@ -9,7 +9,7 @@ const servers = {
     eu: require("./events/serverEU"),
     global: require("./events/serverGL"),
     satellaplay: require("./events/Satellaplay"),
-    "satellaplay 2": require("./events/Satellaplay1")
+    satellaplay2: require("./events/Satellaplay1")
 };
 const Invite = require("./events/invite");
 const prefix = "!";
@@ -67,7 +67,7 @@ client.on("message", message => {
 
     //Banned Words / Websites
 
-    if (args.some(word => ["nigger", "fuck"].includes(word.toLowerCase()))) {
+    if (args.some(word => ["nigger", "fuck", "wtf"] .includes(word.toLowerCase()))) {
         message.delete().catch(console.error);
         return message.author.send("Why THAT WORD DUDE?").catch(() => {});
     }
