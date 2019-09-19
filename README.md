@@ -2,8 +2,7 @@ BS-X Computer
 =============
 The way to find Satellaview servers!
 v1.1.2
-Thank you to fripp#4444 for making args for this bot, and making this update possible.
-you can access the Old (disicricated Version) by clicking the "Old" Branch.
+We Would like to inform people that development has paused, and will continue when More Satellaview servers open.
 
 Commands
 --------
