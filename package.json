@@ -3,9 +3,6 @@
   "version": "1.1.2",
   "description": "The Way to Find Satellaview Servers!",
   "main": "bot.js",
-  "engines": {
-    "node": "10.3.0"
-  },
   "scripts": {
     "test": "echo 'Hello World!' ",
     "dependencies-install": "npm install discord.js discord.js-commando dotenv express isomorphic-fetch",
@@ -18,6 +15,5 @@
     "discord.js-commando": "^0.10.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "isomorphic-fetch": "^2.2.1"
-   
-}}
+    "isomorphic-fetch": "^2.2.1" }
+  }
