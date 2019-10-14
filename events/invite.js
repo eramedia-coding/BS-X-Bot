@@ -13,7 +13,7 @@ const embed = {
     },
     {
       "name": "Invite Me to your Server!",
-      "value": "I'm not ready! Wait for release 2.0.0!"
+      "value": "https://discordapp.com/api/oauth2/authorize?client_id=616833276660678658&permissions=51200&scope=bot"
     }
   ]
 };

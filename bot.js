@@ -5,11 +5,13 @@ const client = new Discord.Client();
 const help = require("./events/help");
 const helpserver = require("./events/helpserver");
 const servers = {
-    us: require("./events/serverUS"),
-    eu: require("./events/serverEU"),
-    global: require("./events/serverGL"),
-    satellaplay: require("./events/Satellaplay"),
-    satellaplay2: require("./events/Satellaplay1")
+    mc: require("./events/minecraft/Server1"),
+    //Satellaview
+    us: require("./events/satellaview/serverUS"),
+    eu: require("./events/satellaview/serverEU"),
+    global: require("./events/satellaview/serverGL"),
+    satellaplay: require("./events/satellaview/satellaplay/Satellaplay"),
+    satellaplay2: require("./events/satellaview/satellaplay/Satellaplay1")
 };
 const Invite = require("./events/invite");
 const prefix = "!";
@@ -19,14 +21,14 @@ client.on("ready", () => {
     client.user.setActivity("on Servers! || !help");
 });
 //Autorole :)
-
-client.on("guildMemberAdd", member => {
-    console.log("a user has joined the server.");
-    //FORK NOTE: please change 'Satellite People' to your defult member role / delete it.
-    const role = member.guild.roles.find(role => role.name === "Satellite People");
-    if (!role) return;
-    member.addRole(role);
-});
+//currently disabled. could be replaced by another bot in a future update.
+//client.on("guildMemberAdd", member => {
+//    console.log("a user has joined the server.");
+//    //FORK NOTE: please change 'Satellite People' to your defult member role / delete it.
+//    const role = member.guild.roles.find(role => role.name === "Satellite People");
+//    if (!role) return;
+//    member.addRole(role);
+//});
 
 // Help code
 client.on("message", message => {
@@ -63,18 +65,6 @@ client.on("message", message => {
     if (command === "invite") {
         message.delete().catch(console.error);
         return message.author.send({ embed: Invite.embed }).catch(() => {});
-    }
-
-    //Banned Words / Websites
-
-    if (args.some(word => ["nigger", "fuck", "wtf"] .includes(word.toLowerCase()))) {
-        message.delete().catch(console.error);
-        return message.author.send("Why THAT WORD DUDE?").catch(() => {});
-    }
-
-    if (message.content.includes("https://discord.gg")) {
-        message.delete().catch(console.error);
-        return message.author.send("Invites are not allowed dude!").catch(() => {});
     }
 });
 

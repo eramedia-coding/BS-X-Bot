@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const commando = require("discord.js-commando")
+
 const embed = {
   "color": 16777215,
   "footer": {
@@ -8,20 +9,20 @@ const embed = {
   },
   "fields": [
     {
-      "name": "Help Menu",
-      "value": "========"
+      "name": "Minecraft Servers",
+      "value": "================"
     },
     {
-      "name": "!help",
-      "value": "Shows This Menu"
+      "name": "MC World Network",
+      "value": "The MC World Revial Project. \n!server mcworld"
     },
     {
-      "name": "!server",
-      "value": "Shows All Avalible Servers! \nDo !help server for More Info!"
+        "name": "Joe's Minecraft Server",
+        "value": "Details Unknown. \n!server jms"
     },
     {
-      "name": "!invite",
-      "value": "Invite Me into your server!"
+      "name": "Page 1/1",
+      "value": "Showing 0/0"
     }
   ]
 };
