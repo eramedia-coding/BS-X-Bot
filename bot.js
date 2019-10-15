@@ -19,16 +19,7 @@ const prefix = "!";
 client.on("ready", () => {
     console.log("BS-X Computer Has Been Launched.");
     client.user.setActivity("on Servers! || !help");
-});
-//Autorole :)
-//currently disabled. could be replaced by another bot in a future update.
-//client.on("guildMemberAdd", member => {
-//    console.log("a user has joined the server.");
-//    //FORK NOTE: please change 'Satellite People' to your defult member role / delete it.
-//    const role = member.guild.roles.find(role => role.name === "Satellite People");
-//    if (!role) return;
-//    member.addRole(role);
-//});
+})
 
 // Help code
 client.on("message", message => {
@@ -42,7 +33,6 @@ client.on("message", message => {
             return message.channel.send({ embed: helpserver.embed }).catch(console.error);
         return message.channel.send({ embed: help.embed }).catch(console.error);
     }
-    //this one is in ./events/help.js yeah I did that
 
     //Commands Code
     if (command === "website") {
