@@ -19,6 +19,6 @@
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "isomorphic-fetch": "^2.2.1",
-    "my-framework": "x"
+    "logrocket": "^"
   }
   }
