@@ -18,5 +18,7 @@
     "discord.js-commando": "^0.10.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "isomorphic-fetch": "^2.2.1" }
+    "isomorphic-fetch": "^2.2.1",
+    "my-framework": "x"
+  }
   }
