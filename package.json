@@ -4,7 +4,7 @@
   "description": "The Way to Find Satellaview Servers!",
   "main": "bot.js",
   "engines": {
-    "node": "10.x"
+    "node": "9.x"
   },
   "scripts": {
     "test": "echo 'Hello World!' ",
