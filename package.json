@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo 'Hello World!' ",
     "dependencies-install": "npm install discord.js discord.js-commando dotenv express isomorphic-fetch",
-    "build": "my-framework build --output public"
   },
   "author": "HS",
   "license": "ISC",
