@@ -3,12 +3,9 @@
   "version": "1.1.2",
   "description": "The Way to Find Satellaview Servers!",
   "main": "bot.js",
-  "engines": {
-    "node": "8.6"
   },
   "scripts": {
-    "test": "echo 'Hello World!' ",
-    "dependencies-install": "npm install discord.js discord.js-commando dotenv express isomorphic-fetch",
+     "start": "node bot.js"
   },
   "author": "HS",
   "license": "ISC",
