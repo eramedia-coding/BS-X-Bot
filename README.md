@@ -33,6 +33,12 @@ Discord.js Members
 |--|--|
 | fripp#4444 | Updated Codebase |
 
+Others
+
+| Person | Helped With |
+|--------|-------------|
+|@Yas#2698 | Node.js V. |
+
 NOTICE:
 ======
 Copyright 2019 EraMedia
