@@ -3,17 +3,23 @@
   "version": "1.1.2",
   "description": "The Way to Find Satellaview Servers!",
   "main": "bot.js",
+  "engines": {
+    "node": "10.x"
   },
   "scripts": {
-     "start": "node bot.js"
+    "dependencies-install": "npm install discord.js discord.js-commando dotenv express isomorphic-fetch",
+    "start": "node bot.js"
   },
   "author": "HS",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
     "discord.js-commando": "^0.10.0",
-    "dotenv": "7.0.0",
-    "express": "4.16.4",
-    "isomorphic-fetch": "^2.2.1"
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "isomorphic-fetch": "^2.2.1",
+  },
   }
-  }
+
+
+
