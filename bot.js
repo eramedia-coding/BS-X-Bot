@@ -1,7 +1,6 @@
 //reqired
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const {token, itad, } = require('./config.json');
 //events
 const help = require("./events/help");
 const helpserver = require("./events/helpserver");
@@ -65,4 +64,4 @@ client.on("message", message => {
 
 // FORK NOTE: Your Bot's Token. Available on https://discordapp.com/developers/applications/me
 // TIP: Put it in the .env file.
-client.login(token);
+client.login(process.env.token);
