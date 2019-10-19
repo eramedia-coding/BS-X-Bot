@@ -4,6 +4,13 @@ The way to find Satellaview servers!
 v2.0.0
 We are adding Minecraft support & the invite link!
 
+| Honor | 
+|--|--|
+|@Yas#2698 |
+| fripp#4444 |
+
+Please Prase These People.
+
 Commands
 --------
 | Command | Discription |
