@@ -15,8 +15,6 @@ const servers = {
 };
 const Invite = require("./events/invite");
 const prefix = "!";
-import LogRocket from 'logrocket';
-LogRocket.init('7dxveo/bs-x-bot');
 
 client.on("ready", () => {
     console.log("BS-X Computer Has Been Launched.");
