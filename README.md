@@ -5,7 +5,7 @@ v2.0.0
 We are adding Minecraft support & the invite link!
 
 | Honor | 
-|--|--|
+|--|
 |@Yas#2698 |
 | fripp#4444 |
 
